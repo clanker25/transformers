@@ -1,0 +1,10 @@
+apiVersion: 0
+
+providers:
+  - name: 'Transformers Benchmarks'
+    orgId: 2
+    type: file
+    updateIntervalSeconds: 10
+    allowUiUpdates: true
+    options:
+      path: /etc/grafana/dashboards
